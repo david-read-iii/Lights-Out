@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ColorFragment">
+
+    <!-- "Red" MaterialButton. -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/red_button"
+        style="@style/GameOptionButton"
+        android:text="@string/red_button_label"
+        android:textColor="@color/red"
+        app:icon="@drawable/ic_radio_button_unchecked" />
+
+    <!-- "Orange" MaterialButton. -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/orange_button"
+        style="@style/GameOptionButton"
+        android:text="@string/orange_button_label"
+        android:textColor="@color/orange"
+        app:icon="@drawable/ic_radio_button_unchecked" />
+
+    <!-- "Yellow" MaterialButton. -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/yellow_button"
+        style="@style/GameOptionButton"
+        android:text="@string/yellow_button_label"
+        android:textColor="@color/yellow"
+        app:icon="@drawable/ic_radio_button_unchecked" />
+
+    <!-- "Green" MaterialButton. -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/green_button"
+        style="@style/GameOptionButton"
+        android:text="@string/green_button_label"
+        android:textColor="@color/green"
+        app:icon="@drawable/ic_radio_button_unchecked" />
+
+</LinearLayout>

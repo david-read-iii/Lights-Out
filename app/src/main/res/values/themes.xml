@@ -1,7 +1,7 @@
 <resources>
 
-    <!-- Default theme with no action bar. -->
-    <style name="Theme.NoActionBar" parent="Theme.MaterialComponents.NoActionBar">
+    <!-- Default app theme. -->
+    <style name="Theme.LightsOut" parent="Theme.MaterialComponents.NoActionBar">
 
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/blue_grey_800</item>
@@ -14,31 +14,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimary</item>
 
-    </style>
-
-    <!-- Default theme with action bar. -->
-    <style name="Theme.ActionBar" parent="Theme.MaterialComponents.Light.DarkActionBar">
-
-        <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/blue_grey_800</item>
-        <item name="colorOnPrimary">@color/white</item>
-
-        <!-- Window background color. -->
-        <item name="android:colorBackground">@color/blue_grey_800_light</item>
-        <item name="colorOnBackground">@color/white</item>
-
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor">?attr/colorPrimary</item>
-
-        <!-- Toolbar style. -->
-        <item name="toolbarStyle">@style/ToolbarStyle</item>
-
-    </style>
-
-    <!-- Toolbar style. -->
-    <style name="ToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
-        <item name="android:background">?attr/colorPrimary</item>
-        <item name="titleTextColor">?attr/colorOnPrimary</item>
     </style>
 
     <!-- Light Button style. -->

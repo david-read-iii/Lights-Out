@@ -1,3 +1,24 @@
 <resources>
+
+    <!-- App name. -->
     <string name="app_name">Lights Out</string>
+
+    <!-- MainActivity strings. -->
+    <string name="count_label">Count: %1$d</string>
+    <string name="new_game_button_label">New Game</string>
+    <string name="help_button_label">Help</string>
+    <string name="color_button_label">Change Color</string>
+    <string name="game_win_message">You won with %1$d clicks!</string>
+
+    <!-- HelpActivity strings. -->
+    <string name="help_activity_toolbar_label">Help</string>
+    <string name="instructions_text">A random pattern of lights are switched on when the game starts. Tapping a light toggles itself and adjacent lights. Switch all lights off in as few presses as possible to win!</string>
+
+    <!-- ColorActivity strings. -->
+    <string name="color_activity_toolbar_label">Choose a color</string>
+    <string name="red_button_label">Red</string>
+    <string name="orange_button_label">Orange</string>
+    <string name="yellow_button_label">Yellow</string>
+    <string name="green_button_label">Green</string>
+
 </resources>
