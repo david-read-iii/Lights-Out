@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/david/Coding Projects/Android Studio Projects/M Three Bootcamp Projects/Lights Out With Fragments/app/src/main/res/drawable-anydpi/ic_radio_button_checked.xml" value="0.208" />
+        <entry key="..\:/Users/david/Coding Projects/Android Studio Projects/M Three Bootcamp Projects/Lights Out With Fragments/app/src/main/res/drawable-anydpi/ic_radio_button_unchecked.xml" value="0.208" />
+        <entry key="..\:/Users/david/Coding Projects/Android Studio Projects/M Three Bootcamp Projects/Lights Out With Fragments/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.208" />
         <entry key="..\:/Users/david/Coding Projects/Android Studio Projects/mThree Android Development Training Projects/Lights Out With Fragments/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/david/Coding Projects/Android Studio Projects/mThree Android Development Training Projects/Lights Out With Fragments/app/src/main/res/layout/fragment_blank.xml" value="0.24010416666666667" />
       </map>
