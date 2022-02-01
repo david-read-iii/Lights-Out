@@ -26,6 +26,26 @@ public class ColorFragment extends Fragment {
     public static final String COLOR_EXTRA = "color";
 
     /**
+     * {@link MaterialButton} for the red color option.
+     */
+    private MaterialButton redMaterialButton;
+
+    /**
+     * {@link MaterialButton} for the orange color option.
+     */
+    private MaterialButton orangeMaterialButton;
+
+    /**
+     * {@link MaterialButton} for the yellow color option.
+     */
+    private MaterialButton yellowMaterialButton;
+
+    /**
+     * {@link MaterialButton} for the green color option.
+     */
+    private MaterialButton greenMaterialButton;
+
+    /**
      * Callback method invoked when the fragment view is created. First, it inflates the layout of
      * this fragment. Then, it receives the color ID used to light squares up from
      * {@link GameFragment}. Finally, it puts the {@link MaterialButton} in the layout that
@@ -36,10 +56,10 @@ public class ColorFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_color, container, false);
 
         // Create references to all MaterialButton views.
-        MaterialButton redMaterialButton = rootView.findViewById(R.id.red_button);
-        MaterialButton orangeMaterialButton = rootView.findViewById(R.id.orange_button);
-        MaterialButton yellowMaterialButton = rootView.findViewById(R.id.yellow_button);
-        MaterialButton greenMaterialButton = rootView.findViewById(R.id.green_button);
+        redMaterialButton = rootView.findViewById(R.id.red_button);
+        orangeMaterialButton = rootView.findViewById(R.id.orange_button);
+        yellowMaterialButton = rootView.findViewById(R.id.yellow_button);
+        greenMaterialButton = rootView.findViewById(R.id.green_button);
 
         // Add click callbacks to all MaterialButton views.
         redMaterialButton.setOnClickListener(this::onColorSelected);
@@ -72,6 +92,15 @@ public class ColorFragment extends Fragment {
      * @param view {@link View} selected.
      */
     public void onColorSelected(View view) {
+
+        // Uncheck all MaterialButton views.
+        redMaterialButton.setIcon(AppCompatResources.getDrawable(this.requireActivity(), R.drawable.ic_radio_button_unchecked));
+        orangeMaterialButton.setIcon(AppCompatResources.getDrawable(this.requireActivity(), R.drawable.ic_radio_button_unchecked));
+        yellowMaterialButton.setIcon(AppCompatResources.getDrawable(this.requireActivity(), R.drawable.ic_radio_button_unchecked));
+        greenMaterialButton.setIcon(AppCompatResources.getDrawable(this.requireActivity(), R.drawable.ic_radio_button_unchecked));
+
+        // Check the selected MaterialButton.
+        ((MaterialButton) view).setIcon(AppCompatResources.getDrawable(this.requireActivity(), R.drawable.ic_radio_button_checked));
 
         // Get a color ID based on which MaterialButton was selected.
         int colorId = R.color.yellow;
