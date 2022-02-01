@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_game"
-        android:name="com.davidread.lightsoutwithfragments.GameFragment"
+        android:name="com.davidread.lightsout.GameFragment"
         android:label="@string/navigation_game_label"
         tools:layout="@layout/fragment_game" />
 
     <fragment
         android:id="@+id/navigation_color"
-        android:name="com.davidread.lightsoutwithfragments.ColorFragment"
+        android:name="com.davidread.lightsout.ColorFragment"
         android:label="@string/navigation_color_label"
         tools:layout="@layout/fragment_color" />
 
     <fragment
         android:id="@+id/navigation_help"
-        android:name="com.davidread.lightsoutwithfragments.HelpFragment"
+        android:name="com.davidread.lightsout.HelpFragment"
         android:label="@string/navigation_help_label"
         tools:layout="@layout/fragment_help" />
 

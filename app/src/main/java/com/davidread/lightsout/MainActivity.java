@@ -1,4 +1,4 @@
-package com.davidread.lightsoutwithfragments;
+package com.davidread.lightsout;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.navigation.NavController;

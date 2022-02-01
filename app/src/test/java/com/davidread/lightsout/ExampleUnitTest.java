@@ -1,4 +1,4 @@
-package com.davidread.lightsoutwithfragments;
+package com.davidread.lightsout;
 
 import org.junit.Test;
 
